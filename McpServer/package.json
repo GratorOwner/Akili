@@ -1,1 +1,19 @@
+{
+  "name": "akili-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for the Akili Graph API",
+  "main": "src/server.js",
+  "type": "module",
+  "bin": {
+    "akili-mcp": "bin/akili-mcp.js"
+  },
+  "scripts": {
+    "start": "node bin/akili-mcp.js serve"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.1.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.0.0"
+  }
+}
 
